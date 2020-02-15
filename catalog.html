@@ -22,10 +22,55 @@
 		</nav>
 		<h1 class="">Магазин готовых шаблонов</h1>
 	</header>
-	<main class="">
-		<h2>Формы</h2>
-		<p>Сетка:</p>
-		<p>Особенности:</p>
+	<main class="container">
+		<section class="fiktres">
+			<h2>Фильтр шаблонов</h2>
+			<form class="" method="get" action="https://echo.htmlacademy.ru">
+				<fieldset>
+					<legend>Сетка:</legend>
+					<ul class="">
+						<li class="">
+							<input class="" type="radio" name="group-p" value="adaptiv" id="f-ad" checked>
+							<label for="f-ad">Адаптивная</label>
+						</li>
+						<li class="">
+							<input class="" type="radio" name="group-p" value="fixed" id="f-fx">
+							<label for="f-fx"> Фиксированная</label>
+						</li>
+						<li class="">
+							<input class="" type="radio" name="group-p" value="rubber" id="f-rb">
+							<label for="f-rb">Резиновая</label>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Особенности:</legend>
+					<ul>
+						<li>
+							<input class="" type="checkbox" name="features-sl" id="f-sl" checked>
+							<label for="f-sl">Слайдер</label>
+						</li>
+						<li>
+							<input class="" type="checkbox" name="features-ba" id="f-ba">
+							<label for="f-ba">Блок преимуществ</label>
+						</li>
+						<li>
+							<input class="" type="checkbox" name="features-n" id="f-n" checked>
+							<label for="f-n">Новости</label>
+						</li>
+						<li>
+							<input class="" type="checkbox" name="features-g" id="f-g">
+							<label for="f-g">Галерея</label>
+						</li>
+						<li>
+							<input class="" type="checkbox" name="features-b" id="f-b">
+							<label for="f-b">Корзина</label>
+						</li>
+					</ul>
+				</fieldset>
+				<button class="submit" type="submit">Показать</button>
+			</form>
+		</section>
 		<section class="">
 			<ul class="">
 				<li>
@@ -85,7 +130,7 @@
 			</ul>
 		</section>
 		<section class="">
-			<img class="" src="img/map-marker.png" width="231" height="190" alt="map-marker">
+			<img class="" src="img/map.png" width="1440" height="416" alt="изображение карты">
 			<p class="">NЁRDS DESIGN STUDIO</p>
 			<p class="">
 				191186, Санкт-Петербург,
@@ -93,7 +138,16 @@
 				тел. +7 (812) 275-75-75
 				<a class="" href="">напишите нам</a>
 			</p>
-			<!-- карта -->
+		</section>
+		<section class="">
+			<h2>Напишите нам</h2>
+			<form class="" method="post" action="">
+				<p><label>Ваше имя:<input type="text" name="name" placeholder="Имя Фамилия"></label></p>
+				<p><label>Ваш e-mail:<input type="text" name="email" placeholder="email@example.com"></label></p>
+				<p><label>Текст письма:<input type="text" name="message" placeholder="В свободной форме"></label></p>
+				<button class="submit-send" type="submit">Отправить</button>
+			</form>
+			<button>Закрыть</button>
 		</section>
 	</main>
 	<footer class="">

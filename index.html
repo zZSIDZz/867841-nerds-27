@@ -23,16 +23,18 @@
 		<div class="">
 			<p>Долго, дорого,<br>скрупулезно.</p>
 			<p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-			<a class="" href="catalig.html">Узнать больше</a>
+			<a class="" href="catalog.html">Узнать больше</a>
 		</div>
 		<!-- СЛАЙДЕР -->
-	<main class="">
+	<main class="container">
 		<section class="">
-			<h1 class="">Дизайн студия Краснодара</h1>
+			<h1 class="visually-hidden">Дизайн студия Краснодара</h1>
 			<ul class="">
 				<li class="">
-					<a href=""><img src="img/illustration-1.png" width="300" height="146" alt="иконка услуги веб-сайтов"></a>
-					<h3 class=""><a href="">Веб-сайты</a></h3>
+					<a href="">
+						<img src="img/illustration-1.png" width="300" height="146" alt="иконка услуги веб-сайтов">
+						<h3 class="">Веб-сайты</h3>
+					</a>
 					<p>
 						Мир никода не будет прежним
 						после того как увидит ваш сайт!
@@ -40,8 +42,10 @@
 					</p>
 				</li>
 				<li class="">
-					<a href=""><img src="img/illustration-2.png" width="300" height="146" alt="иконка услуги приложения"></a>
-					<h3 class=""><a href="">Приложения</a></h3>
+					<a href="">
+						<img src="img/illustration-2.png" width="300" height="146" alt="иконка услуги приложения">
+						<h3 class="">Приложения</h3>
+					</a>
 					<p>
 						Покорите топ-10 приложений в
 						AppStore и Google Play
@@ -49,8 +53,10 @@
 					</p>
 				</li>
 				<li class="">
-					<a href=""><img src="img/illustration-3.png" width="300" height="146" alt="иконка услуги презентаций"></a>
-					<h3 class=""><a href="">Презантации</a></h3>
+					<a href="">
+						<img src="img/illustration-3.png" width="300" height="146" alt="иконка услуги презентаций">
+						<h3 class=""><a href="">Презантации</h3>
+					</a>
 					<p>
 						Вы даже не подозреваете,
 						насколько вы изумительны!
@@ -59,7 +65,7 @@
 				</li>
 			</ul>
 			<div class="">
-				<h1>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h1>
+				<h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
 				<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
 				<h3>Выполняем заказы на разработку:</h3>
 				<ul class="">
@@ -97,15 +103,24 @@
 			</div>
 		</section>
 		<section class="">
-			<img class="" src="img/map-marker.png" width="231" height="190" alt="map-marker">
+			<img class="" src="img/map.png" width="1440" height="416" alt="изображение карты">
 			<p class="">NЁRDS DESIGN STUDIO</p>
 			<p class="">
 				191186, Санкт-Петербург,
 				ул. Б. Конюшенная, д. 19/8
 				тел. +7 (812) 275-75-75
-				<a class="" href="">напишите нам</a>
+				<button class="submit-f" type="submit">напишите нам</button>
 			</p>
-			<!-- карта -->
+		</section>
+		<section class="">
+			<h2>Напишите нам</h2>
+			<form class="" method="post" action="">
+				<p><label>Ваше имя:<input type="text" name="name" placeholder="Имя Фамилия"></label></p>
+				<p><label>Ваш e-mail:<input type="text" name="email" placeholder="email@example.com"></label></p>
+				<p><label>Текст письма:<input type="text" name="message" placeholder="В свободной форме"></label></p>
+				<button class="submit-send" type="submit">Отправить</button>
+			</form>
+			<button>Закрыть</button>
 		</section>
 	</main>
 	<footer class="">
