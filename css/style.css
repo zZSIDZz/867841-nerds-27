@@ -1,0 +1,140 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family:"Roboto","Arial", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: black;
+	background-color: white;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.main-navigation {
+	font-size: 16px;
+	line-height: 30px;
+	color: black;
+	background-color: white;
+	text-transform: uppercase;
+	list-style: none;
+}
+
+.site-navigation,
+.basket {
+	list-style: none;
+}
+
+.site-navigation a,
+.basket a {
+	color: black; 
+	background-color: white;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.basket a:hover,
+.basket a:focus {
+	color: #fb565a;
+}
+
+.site-navigation a:active,
+.basket a:active {
+	color: #a6a6a6;
+}
+
+.features-list .features-item{
+/*	list-style: none; */
+	
+}
+
+
+.features-item p {
+	text-align: left;
+	white-space: pre-line;
+}
+
+.features-item .btn {
+	text-transform: uppercase;
+	color: white;
+	line-height: 18px;
+	font: inherit;
+	padding: 15px 35px 15px 35px;
+	border-radius: 3px;
+	vertical-align: middle;
+	font-weight: 500;
+}
+
+.btn.sites {
+	background-color: #fb565a;
+}
+
+.btn.sites:hover,
+.btn.sites:focus {
+	background-color: #e74246;
+	color: rgba(255,255,255,0.9 );
+}
+
+.btn.sites:active {
+	background-color: #e74246;
+	color: rgba(255,255,255,0.3 );
+	box-shadow: inset 0 3px rgba(0, 1, 1, 0.1);
+}
+
+.btn.apps {
+	background-color: #00ca74;
+}
+
+.btn.apps:hover,
+.btn.apps:focus {
+	background-color: #00bc6c;
+	color: rgba(255,255,255,0.9 );
+}
+
+.btn.apps:active {
+	background-color: #00aa62;
+	color: rgba(255,255,255,0.3 );
+	box-shadow: inset 0 3px rgba(0, 1, 1, 0.1);
+}
+
+.btn.present {
+	background-color: #efc849;
+}
+
+.btn.present:hover,
+.btn.present:focus {
+	background-color: #eab534;
+
+}
+
+.btn.present:active {
+	background-color: #e5a722;
+	color: rgba(255,255,255,0.3 );
+	box-shadow: inset 0 3px rgba(0, 1, 1, 0.1);
+}
+
+.social-list li {
+	list-style: none;
+	display: inline;
+}
+.social-btn {
+	background-color: #e1e1e1;
+	border: 1px solid #e1e1e1;
+	border-radius: 50%;
+	margin-right: 11px;
+	padding: 32px 25px 20px 25px;
+}
+
+.social-btn:hover,
+.social-btn:focus {
+	background-color: #e74246;
+	border: 1px solid #e74246;
+}
+
+.social-btn:active {
+	background-color: #d7373b;
+	opacity: 0.7;
+}

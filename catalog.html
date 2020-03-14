@@ -3,20 +3,23 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>HTML Academy: Нёрдс</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
-		<nav class="">
+		<nav class="main-navigation">
 			<a href="index.html">
 				<img src="img/nerds-logo.svg" width="160" height="65" alt="Лого проекта Нёрдс">
 			</a>
-			<ul class="">
+			<ul class="site-navigation">
 				<li><a href="">Студия</a></li>
 				<li><a href="">Клиенты</a></li>
 				<li>Магазин</li>
 				<li><a href="">Контакты</a></li>
 			</ul>
-			<ul class="">
+			<ul class="basket">
 				<li><a href=""><img src="img/cart-icon.svg" width="15" height="15" alt="икона корзины"> Корзина</a></li>
 			</ul>
 		</nav>
@@ -24,26 +27,24 @@
 	</header>
 	<main class="container">
 		<section class="sorts">
-			<fieldset>
-				<legend>Сортировать:</legend>
-				<ul class="">
-					<li class="">
-						<button>по цене</button>
-					</li>
-					<li class="">
-						<button>по типу</button>
-					</li>
-					<li class="">
-						<button> по названию</button>
-					</li>
-					<li class="">
-						<button>по убыванию</button>
-					</li>
-					<li class="">
-						<button>по возрастанию</button>
-					</li>
-				</ul>
-			</fieldset>
+			<p>Сортировать:</p>
+			<ul class="">
+				<li class="">
+					<a href="">по цене</a>
+				</li>
+				<li class="">
+					<a href="">по типу</a>
+				</li>
+				<li class="">
+					<a href="">по названию</a>
+				</li>
+				<li class="">
+					<a href="">по убыванию</a>
+				</li>
+				<li class="">
+					<a href="">по возрастанию</a>
+				</li>
+			</ul>
 		</section>
 		<section class="filtres">
 			<h2 class="visually-hidden">Фильтр шаблонов</h2>
